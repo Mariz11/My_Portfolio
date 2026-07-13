@@ -8,7 +8,7 @@ export default function Home() {
       
     {/* HEADER / HERO SECTION */}
     <header className="max-w-5xl mx-auto px-6 pt-24 pb-16 flex flex-col justify-center min-h-[70vh]">
-      <p className="text-teal-400 font-mono mb-3 text-sm tracking-widest uppercase">Hi, my name is <style className="text-2xl">Mariz Gutib </style> </p>
+      <p className="text-teal-400 font-mono mb-3 text-sm tracking-widest uppercase">Hi, my name is </p>
 
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-100 mb-4">
         Software Developer.

@@ -1,4 +1,4 @@
-import { Code2, Mail, ExternalLink, Monitor} from "lucide-react";
+import { Brain, Mail, ExternalLink, Monitor} from "lucide-react";
 //import { Linkedin, Github } from "lucide-react";
 import Image from "next/image";
 
@@ -77,7 +77,7 @@ export default function Home() {
         <div className="group bg-slate-900 border border-slate-800/80 rounded-xl p-6 hover:border-slate-700 transition duration-300 flex flex-col justify-between">
           <div>
             <div className="flex justify-between items-start mb-6">
-              <Code2 className="text-teal-400 h-8 w-8" />
+              <Brain className="text-teal-400 h-8 w-8" />
               <div className="flex gap-3 text-slate-400">
                 <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400">  </a>
                 <a href="https://yourdemo.com" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
@@ -86,6 +86,7 @@ export default function Home() {
             <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
               Barangay Profiling and Nutritional Status System (BPNSS) Web Application
             </h4>
+            <Image src="/barangay_luz.png" alt="Barangay Luz Web Application" width={600} height={400} className="rounded-lg mb-4" />
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
               A fully responsive and dynamic web interface built using Next.js and React. Implemented for Barangay Luz to optimized resident profiling for the barangay and to track child's nutritional status 
             </p>
@@ -125,8 +126,34 @@ A system build from scratch up to pre-production for M Lhuillier Financial Servi
             </div>
           </div>
         </div>
-
-      {/* Project 3: Kwarta Padala v10 */}
+  
+        {/* Project 3: Ouiz Master*/}
+        <div className="group bg-slate-900 border border-slate-800/80 rounded-xl p-6 hover:border-slate-700 transition duration-300 flex flex-col justify-between">
+          <div>
+            <div className="flex justify-between items-start mb-6">
+              <Brain className="text-teal-400 h-8 w-8" />
+              <div className="flex gap-3 text-slate-400">
+                <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400">  </a>
+                <a href="https://yourdemo.com" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
+              </div>
+            </div>
+            <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
+             M. Lhuillier Quiz Master
+            </h4>
+          <Image src="/quiz_master.png" alt="Quiz Master Web Application" width={600} height={400} className="rounded-lg mb-4" />            <p className="text-slate-400 text-sm leading-relaxed mb-4">
+           A web-based assessment platform built for MLhuillier to support employee development, internal hiring, and promotion evaluations.
+           Our platform provides a secure and efficient way to manage assessments, monitor applicant readiness, and simplify the evaluation process for both employees and management teams.  </p>
+          </div>
+          <div>
+            <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400 pt-4 border-t border-slate-800">
+              <span>Next.js</span>
+              <span>React</span>
+              <span>TailwindCSS</span>
+              <span>REST API</span>
+            </div>
+          </div>
+        </div>
+      {/* Project 4: Kwarta Padala v10 */}
         <div className="group bg-slate-900 border border-slate-800/80 rounded-xl p-6 hover:border-slate-700 transition duration-300 flex flex-col justify-between">
           <div>
             <div className="flex justify-between items-start mb-6">

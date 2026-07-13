@@ -1,4 +1,4 @@
-import { Code2, Mail, ExternalLink, Paintbrush} from "lucide-react";
+import { Code2, Mail, ExternalLink, Monitor} from "lucide-react";
 //import { Linkedin, Github } from "lucide-react";
 import Image from "next/image";
 
@@ -8,9 +8,8 @@ export default function Home() {
       
     {/* HEADER / HERO SECTION */}
     <header className="max-w-5xl mx-auto px-6 pt-24 pb-16 flex flex-col justify-center min-h-[70vh]">
-      <p className="text-teal-400 font-mono mb-3 text-sm tracking-widest uppercase">Hi, my name is </p>
-
-            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-100 mb-4">
+      <p className="text-teal-400 font-mono mb-3 text-lg tracking-widest ">Hi, My Name is <span className="font-bold text-4xl text-shadow-blue-700 text-amber-300 animate-pulse">Mariz Gutib </span> </p>
+     <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-100 mb-4">
         Software Developer.
       </h1>
       <h2 className="text-3xl md:text-5xl font-bold text-slate-400 mb-6">
@@ -74,7 +73,7 @@ export default function Home() {
 
       <div className="grid md:grid-cols-2 gap-8">
         
-        {/* Project 1: Primary Dev Work */}
+        {/* Project 1: Capstone Project for Barangay Luz */}
         <div className="group bg-slate-900 border border-slate-800/80 rounded-xl p-6 hover:border-slate-700 transition duration-300 flex flex-col justify-between">
           <div>
             <div className="flex justify-between items-start mb-6">
@@ -85,10 +84,10 @@ export default function Home() {
               </div>
             </div>
             <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
-              Production-Ready Web Application
+              Barangay Profiling and Nutritional Status System (BPNSS) Web Application
             </h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
-              A fully responsive and dynamic web interface built using Next.js and React. Implemented state management, optimized asset delivery, and integrated backend APIs to ensure a seamless user experience.
+              A fully responsive and dynamic web interface built using Next.js and React. Implemented for Barangay Luz to optimized resident profiling for the barangay and to track child's nutritional status 
             </p>
           </div>
           <div>
@@ -101,33 +100,57 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Project 2: Creative / 3D Asset Management or Dashboard */}
+        {/* Project 2: Live Auction System */}
         <div className="group bg-slate-900 border border-slate-800/80 rounded-xl p-6 hover:border-slate-700 transition duration-300 flex flex-col justify-between">
           <div>
             <div className="flex justify-between items-start mb-6">
-              <Paintbrush className="text-teal-400 h-8 w-8" />
+              <Monitor className="text-teal-400 h-8 w-8" />
               <div className="flex gap-3 text-slate-400">
                 <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400"></a>
                 <a href="https://yourdemo.com" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
               </div>
             </div>
             <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
-              3D Asset Pipeline Tool / Asset Showcase
+              Live Auction System
             </h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
-              A personal passion project blending development with 3D design. A web-based hub or dashboard designed to categorize, catalog, or visualize custom high-fidelity 3D assets and structural models.
-            </p>
+A system build from scratch up to pre-production for M Lhuillier Financial Services Incorporation during internship</p>
           </div>
           <div>
             <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400 pt-4 border-t border-slate-800">
               <span>React</span>
               <span>UI/UX Design</span>
               <span>CSS Modules</span>
-              <span>3D Workflow Integration</span>
+              <span></span>
             </div>
           </div>
         </div>
 
+      {/* Project 3: Kwarta Padala v10 */}
+        <div className="group bg-slate-900 border border-slate-800/80 rounded-xl p-6 hover:border-slate-700 transition duration-300 flex flex-col justify-between">
+          <div>
+            <div className="flex justify-between items-start mb-6">
+              <Monitor className="text-teal-400 h-8 w-8" />
+              <div className="flex gap-3 text-slate-400">
+                <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400"></a>
+                <a href="https://yourdemo.com" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
+              </div>
+            </div>
+            <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
+              Kwarta Padala v10
+            </h4>
+            <p className="text-slate-400 text-sm leading-relaxed mb-4">
+Enhance UI and updated features for Kwarta Padala v10 making sure that the user experience is seamless and efficient.Communicated other teams to ensure that the system users are updated in the Database such as who is active or not and communicated with the outsource team ensuring the criteria are met.</p>
+          </div>
+          <div>
+            <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400 pt-4 border-t border-slate-800">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

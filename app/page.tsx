@@ -80,7 +80,7 @@ export default function Home() {
               <Brain className="text-teal-400 h-8 w-8" />
               <div className="flex gap-3 text-slate-400">
                 <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400">  </a>
-                <a href="https://yourdemo.com" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
+                <a href="https://information-system-sand.vercel.app/" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
               </div>
             </div>
             <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
@@ -88,8 +88,7 @@ export default function Home() {
             </h4>
             <Image src="/barangay_luz.png" alt="Barangay Luz Web Application" width={600} height={400} className="rounded-lg mb-4" />
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
-              A fully responsive and dynamic web interface built using Next.js and React. Implemented for Barangay Luz to optimized resident profiling for the barangay and to track child's nutritional status 
-            </p>
+Built a full-stack resident profiling system for Barangay Luz, replacing manual paper records with a searchable digital database. Enabled staff to track child nutritional status in real time, cutting reporting time from days to minutes.            </p>
           </div>
           <div>
             <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400 pt-4 border-t border-slate-800">
@@ -115,7 +114,7 @@ export default function Home() {
               Live Auction System
             </h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
-A system build from scratch up to pre-production for M Lhuillier Financial Services Incorporation during internship</p>
+Designed and built a live auction platform from concept to pre-production for M Lhuillier Financial Services during my internship — the first system of its kind for the company. Owned the UI/UX from wireframe to working prototype. </p>
           </div>
           <div>
             <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400 pt-4 border-t border-slate-800">
@@ -134,16 +133,17 @@ A system build from scratch up to pre-production for M Lhuillier Financial Servi
               <Brain className="text-teal-400 h-8 w-8" />
               <div className="flex gap-3 text-slate-400">
                 <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400">  </a>
-                <a href="https://yourdemo.com" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
+                <a href="https://ml-mini-proj-quizmster-376318511165.asia-southeast1.run.app/" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
               </div>
             </div>
             <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
              M. Lhuillier Quiz Master
             </h4>
-          <Image src="/quiz_master.png" alt="Quiz Master Web Application" width={600} height={400} className="rounded-lg mb-4" />            <p className="text-slate-400 text-sm leading-relaxed mb-4">
+          <Image src="/quiz_master.png" alt="Quiz Master Web Application" width={600} height={400} className="rounded-lg mb-4" />           
+           <p className="text-slate-400 text-sm leading-relaxed mb-4">
            A web-based assessment platform built for MLhuillier to support employee development, internal hiring, and promotion evaluations.
-           Our platform provides a secure and efficient way to manage assessments, monitor applicant readiness, and simplify the evaluation process for both employees and management teams.  </p>
-          </div>
+Built a secure assessment platform used company-wide for employee development, hiring, and promotion evaluations. Streamlined a previously manual evaluation process, giving management real-time visibility into applicant readiness.   </p>
+       </div>
           <div>
             <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400 pt-4 border-t border-slate-800">
               <span>Next.js</span>
@@ -167,7 +167,7 @@ A system build from scratch up to pre-production for M Lhuillier Financial Servi
               Kwarta Padala v10
             </h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
-Enhance UI and updated features for Kwarta Padala v10 making sure that the user experience is seamless and efficient.Communicated other teams to ensure that the system users are updated in the Database such as who is active or not and communicated with the outsource team ensuring the criteria are met.</p>
+Modernized the UI and shipped new features for Kwarta Padala v10, improving usability for end users. Coordinated with cross-functional and outsourced teams to keep user account status in sync and ensure delivery met agreed criteria.</p>
           </div>
           <div>
             <div className="flex flex-wrap gap-2 font-mono text-xs text-slate-400 pt-4 border-t border-slate-800">
@@ -180,25 +180,40 @@ Enhance UI and updated features for Kwarta Padala v10 making sure that the user 
         </div>
       </div>
     </section>
-
+{/* EXPERIENCE SECTION */}
+  <section id="about" className="max-w-5xl mx-auto px-6 py-20 border-t border-slate-900">
+      <h3 className="text-2xl font-bold mb-8 flex items-center gap-2">
+        <span className="text-teal-400 font-mono text-xl">03.</span> Where I've Been
+      </h3>
+      <div className="grid md:grid-cols-3 gap-8 text-slate-400 leading-relaxed">
+    <div className="md:col-span-2 space-y-2">
+    <ul className="list-disc list-inside text-slate-400 text-sm leading-relaxed mb-4">
+      <li>Field Agent at Hey,Let's Ride Website - Negros Oriental (July)</li>
+      <li>Inventory Clerk at E-Commerce Company - Meycuayan, Bulacan (May - July 2026)</li>
+      <li>Software Developer at M Lhuillier Financial Services (March 18, 2025 - January 15, 2026)</li>
+      <li>Software Developer Intern at M Lhuillier Financial Services (2024)</li>
+      <li>Computer Technology Graduate from University of San Carlos (2022 - 2025)</li>
+    </ul>
+        </div>
+      </div>
+    </section>
     {/* CONTACT SECTION */}
     <section id="contact" className="max-w-3xl mx-auto px-6 py-32 text-center">
-      <p className="text-teal-400 font-mono text-sm tracking-widest uppercase mb-3">03. What's Next?</p>
+      <p className="text-teal-400 font-mono text-sm tracking-widest uppercase mb-3">04. What's Next?</p>
       <h3 className="text-4xl font-bold mb-4 text-slate-100">Get In Touch</h3>
       <p className="text-slate-400 mb-8 leading-relaxed">
         I am currently looking for new opportunities to contribute to dynamic software teams. Whether you are looking to scale an application, build clean user interfaces, or discuss technical problem-solving—my inbox is always open.
       </p>
       
       <div className="flex justify-center gap-6 text-slate-400">
-        <a href="mailto:your.email@email.com" className="hover:text-teal-400 flex items-center gap-2 font-mono text-sm border border-slate-800 hover:border-teal-500/50 bg-slate-900 px-4 py-2 rounded transition">
+        <a href="https://marizmgutib@gmail.com" className="hover:text-teal-400 flex items-center gap-2 font-mono text-sm border border-slate-800 hover:border-teal-500/50 bg-slate-900 px-4 py-2 rounded transition">
           <Mail size={16} /> Email
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400 flex items-center gap-2 font-mono text-sm border border-slate-800 hover:border-teal-500/50 bg-slate-900 px-4 py-2 rounded transition">
-          {/* <Linkedin size={16} /> LinkedIn
-        */}
+        <a href="https://www.linkedin.com/in/mariz-gutib/" target="_blank" rel="noreferrer" className="hover:text-teal-400 flex items-center gap-2 font-mono text-sm border border-slate-800 hover:border-teal-500/50 bg-slate-900 px-4 py-2 rounded transition">
+      <Image src="/linkedin.jpg" alt="LinkedIn Logo" width={16} height={16} className="inline-block" /> LinkedIn
         </a>
         <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400 flex items-center gap-2 font-mono text-sm border border-slate-800 hover:border-teal-500/50 bg-slate-900 px-4 py-2 rounded transition">
-          {/* <Github size={16} /> GitHub */}
+      <Image src="/github.jpg" alt="GitHub Logo" width={19} height={19} className="inline-block" /> GitHub
         </a>
       </div>
     </section>

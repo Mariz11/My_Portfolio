@@ -1,7 +1,8 @@
+import React from "react";
 import { Brain, Mail, ExternalLink, Monitor} from "lucide-react";
 //import { Linkedin, Github } from "lucide-react";
 import Image from "next/image";
-
+import Footer from "./footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-teal-500 selection:text-slate-900">
@@ -139,7 +140,7 @@ Designed and built a live auction platform from concept to pre-production for M 
             <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
              M. Lhuillier Quiz Master
             </h4>
-          <Image src="/quiz_master.png" alt="Quiz Master Web Application" width={600} height={400} className="rounded-lg mb-4" />           
+            <Image src="/quiz_master.png" alt="Quiz Master Web Application" width={600} height={400} className="rounded-lg mb-4" />           
            <p className="text-slate-400 text-sm leading-relaxed mb-4">
            A web-based assessment platform built for MLhuillier to support employee development, internal hiring, and promotion evaluations.
 Built a secure assessment platform used company-wide for employee development, hiring, and promotion evaluations. Streamlined a previously manual evaluation process, giving management real-time visibility into applicant readiness.   </p>
@@ -160,12 +161,13 @@ Built a secure assessment platform used company-wide for employee development, h
               <Monitor className="text-teal-400 h-8 w-8" />
               <div className="flex gap-3 text-slate-400">
                 <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-teal-400"></a>
-                <a href="https://yourdemo.com" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
+                <a href="https://mlhuillier.com/kwarta-padala" target="_blank" rel="noreferrer" className="hover:text-teal-400"><ExternalLink size={20} /></a>
               </div>
             </div>
             <h4 className="text-xl font-bold text-slate-100 group-hover:text-teal-400 transition mb-2">
               Kwarta Padala v10
             </h4>
+            <Image src="/kwarta_padala.png" alt="Kwarta Padala v10 Web Application" width={600} height={400} className="rounded-lg mb-4" />
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
 Modernized the UI and shipped new features for Kwarta Padala v10, improving usability for end users. Coordinated with cross-functional and outsourced teams to keep user account status in sync and ensure delivery met agreed criteria.</p>
           </div>
@@ -219,9 +221,7 @@ Modernized the UI and shipped new features for Kwarta Padala v10, improving usab
     </section>
 
     {/* FOOTER */}
-    <footer className="text-center py-8 border-t border-slate-900 text-xs font-mono text-slate-600">
-      <p>Designed & Built by Yours Truly • 2026</p>
-    </footer>
+    <Footer />
   </div>
   );
 }

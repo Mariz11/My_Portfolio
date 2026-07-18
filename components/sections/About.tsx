@@ -16,11 +16,13 @@ export default function About() {
             into highly optimized, responsive web interfaces.
           </p>
           <p>
-            I thrive in fast-paced environments where leveraging cutting-edge
-            tools and frameworks allows for rapid, scalable development. I also
-            have a deep appreciation for precision and structural design—a
-            mindset that extends into my creative hobbies like high-fidelity 3D
-            modeling and digital sculpting.
+I do my best work in fast-paced environments where I can dive into new 
+tools and frameworks to build things quickly without cutting corners. 
+I care a lot about the little details—clean, responsive layouts that 
+hold up on any screen size, and code that's easy to build on later. 
+Outside of client work, I enjoy exploring new frontend frameworks and 
+finding better ways to make interfaces feel smooth and consistent 
+across devices.
           </p>
         </div>
 

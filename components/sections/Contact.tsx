@@ -10,11 +10,16 @@ type ContactLink = {
   external?: boolean;
 };
 
+const emailHref = siteConfig.email.includes("@gmail.com")
+  ? `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${siteConfig.email}&su=Contact%20from%20portfolio`
+  : `mailto:${siteConfig.email}?subject=Contact%20from%20portfolio`;
+
 const contactLinks: ContactLink[] = [
   {
-    label: "Email",
-    href: `mailto:${siteConfig.email}`,
+    label: "Email me",
+    href: emailHref,
     icon: <Mail size={16} />,
+    external: true,
   },
   {
     label: "LinkedIn",

@@ -6,7 +6,7 @@ export const siteConfig = {
   title: "Software Developer",
   tagline: "Building fast, scalable web applications & digital experiences.",
   location: "Cebu-based",
-  email: "https://mail.google.com/mail/u/0/#inbox",
+  email: "marizmgutib@gmail.com",
   linkedin: "https://www.linkedin.com/in/mariz-gutib/",
   github: "https://github.com/yourusername",
 } as const;
